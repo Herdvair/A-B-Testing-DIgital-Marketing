@@ -1,1 +1,1 @@
-# A-B-Testing-DIgital-Marketing
+# A/B-Testing-Digital-Marketing
