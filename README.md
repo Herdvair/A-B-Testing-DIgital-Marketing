@@ -32,11 +32,13 @@ Analisis ini mencakup beberapa tahap :
 1. Conversion Rate (CVR):
     - Grup ads: 1.34%
     - Grup psa: 1.06%
+      
     → Peningkatan signifikan dengan p-value = 0.0002 < 0.05.
 
 2. Paparan Iklan (Total Ads):
     - Rata-rata ads group: 24.82 iklan
     - Rata-rata psa group: 24.76 iklan
+      
     → Selisih kecil, namun uji statistik (p-value = 0.0000) menunjukkan sistem menayangkan iklan berbeda antar grup.
 
 # Rekomendasi yang bisa ditindaklanjuti
