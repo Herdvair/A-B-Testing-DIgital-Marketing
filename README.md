@@ -13,31 +13,31 @@ Proyek ini merupakan analisis A/B Testing untuk mengevaluasi efektivitas iklan d
 Analisis ini mencakup beberapa tahap :
 
 1. Data Cleaning
-  - Menangani outlier pada variabel total ads yang menunjukkan nilai ekstrim (hingga 2065 iklan) dibandingkan median (13) dan mean (24.82).
-  - Menghapus anomali untuk meningkatkan kualitas data.
+    - Menangani outlier pada variabel total ads yang menunjukkan nilai ekstrim (hingga 2065 iklan) dibandingkan median (13) dan mean (24.82).
+    - Menghapus anomali untuk meningkatkan kualitas data.
 
 2. Objective
-  - Mengetahui apakah penayangan iklan digital efektif meningkatkan conversion rate dibandingkan PSA.
-  - Mengevaluasi dampak jumlah iklan dan waktu paparan iklan terhadap konversi.
+    - Mengetahui apakah penayangan iklan digital efektif meningkatkan conversion rate dibandingkan PSA.
+    - Mengevaluasi dampak jumlah iklan dan waktu paparan iklan terhadap konversi.
 
 3. Success Metrics
-  - Conversion Rate → seberapa besar pengguna melakukan pembelian setelah melihat iklan.
-  - Guardrail Metrics → memastikan jumlah paparan iklan dan pola jam/hari tidak memberikan dampak negatif yang signifikan.
+    - Conversion Rate → seberapa besar pengguna melakukan pembelian setelah melihat iklan.
+    - Guardrail Metrics → memastikan jumlah paparan iklan dan pola jam/hari tidak memberikan dampak negatif yang signifikan.
 
 4. Hypothesis Testing
-  - H0: Tidak ada perbedaan signifikan tingkat konversi antara grup ads dan psa.
-  - H1: Grup ads memiliki tingkat konversi yang lebih tinggi dibandingkan grup psa.
+    - H0: Tidak ada perbedaan signifikan tingkat konversi antara grup ads dan psa.
+    - H1: Grup ads memiliki tingkat konversi yang lebih tinggi dibandingkan grup psa.
 
 # Temuan Penting
 1. Conversion Rate (CVR):
-  - Grup ads: 1.34%
-  - Grup psa: 1.06%
-  → Peningkatan signifikan dengan p-value = 0.0002 < 0.05.
+    - Grup ads: 1.34%
+    - Grup psa: 1.06%
+    → Peningkatan signifikan dengan p-value = 0.0002 < 0.05.
 
 2. Paparan Iklan (Total Ads):
-  - Rata-rata ads group: 24.82 iklan
-  - Rata-rata psa group: 24.76 iklan
-  → Selisih kecil, namun uji statistik (p-value = 0.0000) menunjukkan sistem menayangkan iklan berbeda antar grup.
+    - Rata-rata ads group: 24.82 iklan
+    - Rata-rata psa group: 24.76 iklan
+    → Selisih kecil, namun uji statistik (p-value = 0.0000) menunjukkan sistem menayangkan iklan berbeda antar grup.
 
 # Rekomendasi yang bisa ditindaklanjuti
 1. Optimalkan kampanye digital karena terbukti lebih efektif meningkatkan conversion rate dibandingkan psa
